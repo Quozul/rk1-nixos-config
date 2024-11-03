@@ -18,6 +18,7 @@
         token = "Kjtf4pa*BWj(!=(s";
         clusterInit = true;
         extraFlags = toString [
+            "--write-kubeconfig-mode 644"
             "--disable servicelb"
             "--disable-cloud-controller"
             "--disable local-storage"

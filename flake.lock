@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1726989464,
+        "narHash": "sha256-Vl+WVTJwutXkimwGprnEtXc/s/s8sMuXzqXaspIGlwM=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "2f23fa308a7c067e52dfcc30a0758f47043ec176",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-24.05",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "kernel": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727647579,
+        "narHash": "sha256-olfaNFVQD9qyF/5I0ynv2xa0zxQag/4jyLvZt5nc/Js=",
+        "ref": "refs/heads/master",
+        "rev": "03dc72319cee7d0dfefee9ae7041b67732f6b8cd",
+        "revCount": 1308764,
+        "type": "git",
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+      },
+      "original": {
+        "rev": "03dc72319cee7d0dfefee9ae7041b67732f6b8cd",
+        "type": "git",
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1730327045,
+        "narHash": "sha256-xKel5kd1AbExymxoIfQ7pgcX6hjw9jCgbiBjiUfSVJ8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "080166c15633801df010977d9d7474b4a6c549d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1727634051,
+        "narHash": "sha256-S5kVU7U82LfpEukbn/ihcyNt2+EvG7Z5unsKW9H/yFA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "06cf0e1da4208d3766d898b7fdab6513366d45b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "turing-rk1": "turing-rk1"
+      }
+    },
+    "turing-rk1": {
+      "inputs": {
+        "kernel": "kernel",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1727863955,
+        "narHash": "sha256-TVSebSdOKRUYpGI7rQaYqQL2EbN0dk9svC7tYT6wCVE=",
+        "owner": "GiyoMoon",
+        "repo": "nixos-turing-rk1",
+        "rev": "7c507fb5edf3ef35ad81934f483fc90bd92cd6be",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GiyoMoon",
+        "repo": "nixos-turing-rk1",
+        "rev": "7c507fb5edf3ef35ad81934f483fc90bd92cd6be",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

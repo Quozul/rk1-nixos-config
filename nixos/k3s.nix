@@ -14,15 +14,9 @@
 
     services.k3s = {
         enable = true;
-        role = "server";
+        role = "agent";
         token = "Kjtf4pa*BWj(!=(s";
-        clusterInit = true;
-        extraFlags = toString [
-            "--write-kubeconfig-mode 644"
-            "--disable servicelb"
-            "--disable-cloud-controller"
-            "--disable local-storage"
-        ];
+        serverAddr = "https://192.168.1.142:6443";
     };
 
     # For Longhorn support

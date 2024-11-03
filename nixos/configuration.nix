@@ -70,7 +70,7 @@
   ];
 
   # TODO: Set your hostname
-  networking.hostName = "node1";
+  networking.hostName = "node2";
 
   # TODO: Configure your system-wide user settings (groups, etc), add more users as needed.
   users.users = {

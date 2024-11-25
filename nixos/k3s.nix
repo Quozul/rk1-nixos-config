@@ -18,7 +18,7 @@
         enable = true;
         role = "agent";
         token = "Kjtf4pa*BWj(!=(s";
-        serverAddr = "https://192.168.3.101:6443";
+        serverAddr = "https://10.0.10.101:6443";
     };
 
     # For Longhorn support

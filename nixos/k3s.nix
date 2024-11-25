@@ -24,6 +24,7 @@
             "--disable servicelb"
             "--disable-cloud-controller"
             "--disable local-storage"
+            "--node-ip 10.0.10.101"
         ];
     };
 
